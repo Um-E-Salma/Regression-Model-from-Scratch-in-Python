@@ -1,15 +1,8 @@
-```
-Regression Model from Scratch in Python
-```
-
-
-
-```markdown
 # Regression Model from Scratch in Python
 
 This project demonstrates how to implement a **regression model from scratch** using only core Python libraries (such as `math`, `random`, etc.) without relying on external machine learning frameworks like **scikit-learn** or **TensorFlow**.  
 
-The notebook walks through the step-by-step process of preprocessing data, building, training, and evaluating a regression model to understand how regression works internally.
+The notebook walks through the step-by-step process of **data preprocessing, model building, training, and evaluation** to understand how regression works internally.
 
 ---
 
@@ -25,21 +18,15 @@ The notebook walks through the step-by-step process of preprocessing data, build
 
 ---
 
-## Project Structure
-```
-
-Regression\_model\_scratch.ipynb   # Jupyter Notebook with full implementation
-
-````
 
 ---
 
 ## Requirements
-To run the notebook, install the following:
+To run (locally) the notebook, install the following:
 - Python 3.x
 - Jupyter Notebook
 - Matplotlib
-- Numpy (optional, only for data handling)
+- Numpy (only for data handling)
 
 You can install requirements using:
 ```bash
@@ -78,6 +65,14 @@ The notebook demonstrates:
 * Error metrics to evaluate model accuracy.
 
 ---
+## Loss Curve
+
+Below is the training loss curve for the regression model:
+
+![Loss Curve](training_&_validation_losses_curve.png)
+
+
+---
 
 ## Applications
 
@@ -89,13 +84,13 @@ This project is mainly for **learning and educational purposes**, to understand:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ---
 
-## 📜 License
+## License
 
 This project is licensed under the MIT License.
 
